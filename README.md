@@ -10,8 +10,9 @@ Replace the Project Title
 Describe what your project is about and what it does
 
 ### Files used
-Include the files used
+Include the files used - files used are bikeshare.py and city databases
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+The credit belongs to Udacity
 
