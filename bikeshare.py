@@ -25,7 +25,7 @@ def get_filters():
         else:
             print("Please input valid city")
 
-    # get user input for how he wish to have data sorted
+    # get user input for how he/she wishes to have data sorted
     while True:
         decision = input("Would you like to filter the data by month, day, both or not at all? Type ""none"" for no time filter.").lower()
         if decision in ["month","day","both","none"]:
@@ -208,6 +208,7 @@ def user_stats(df):
     print('-'*40)
 
 
+#funtion to get raw data
 def raw_data(df):
     """Displays raw data on user's demand"""
     i = 0
@@ -218,6 +219,7 @@ def raw_data(df):
         print(df.head(5+i))
         i+=5
 
+#main
 def main():
     while True:
         city, month, day = get_filters()
