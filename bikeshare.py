@@ -208,6 +208,7 @@ def user_stats(df):
     print('-'*40)
 
 
+#funtion to get raw data
 def raw_data(df):
     """Displays raw data on user's demand"""
     i = 0
