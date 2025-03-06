@@ -25,7 +25,7 @@ def get_filters():
         else:
             print("Please input valid city")
 
-    # get user input for how he wish to have data sorted
+    # get user input for how he/she wishes to have data sorted
     while True:
         decision = input("Would you like to filter the data by month, day, both or not at all? Type ""none"" for no time filter.").lower()
         if decision in ["month","day","both","none"]:
